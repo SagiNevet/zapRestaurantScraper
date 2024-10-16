@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from datetime import datetime  # Import datetime module for timestamp
 
 # Initialize the WebDriver (make sure to adjust the path to your WebDriver)
-driver_path = r'C:\Users\i9\Desktop\Code\Python Projects\webScraperNews\chromedriver-win64\chromedriver.exe'  # Update this path
+driver_path = r'C:\YOUR CHROME DRIVER PATH\chromedriver-win64\chromedriver.exe'  # Update this path
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 
