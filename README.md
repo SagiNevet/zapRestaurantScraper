@@ -19,15 +19,16 @@ You can install the required Python packages using:
 
 ```bash
 pip install selenium pandas webdriver-manager
-
+```
 Also, download the appropriate version of ChromeDriver from here and ensure it's in your system's PATH or adjust the driver_path in the script to point to the correct location on your machine.
 
 Getting Started
 Clone the repository:
 
-bash
+```bash
 git clone https://github.com/yourusername/zapRest-scraper.git
 cd zapRest-scraper
+```
 Set up a virtual environment (optional but recommended):
 
 bash
