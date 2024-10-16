@@ -51,9 +51,9 @@ The tool will scrape restaurant information and save the results to a CSV file n
 ## Configuration
 You can adjust the settings in the zapRest_scraper.py file to customize the scraping behavior. For example, you can:
 
-## - Modify the time.sleep() values to adjust the waiting time for page loading.
-## - Change the number of times the "Show More" button is clicked.
-## - Adjust the Chrome options in the WebDriver setup for headless browsing or proxy settings.
+- Modify the time.sleep() values to adjust the waiting time for page loading.
+- Change the number of times the "Show More" button is clicked.
+- Adjust the Chrome options in the WebDriver setup for headless browsing or proxy settings.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
