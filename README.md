@@ -40,7 +40,7 @@ Install project dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Usage
+## Usage
 To run the scraper, simply execute the following command:
 
 ```bash
@@ -48,16 +48,16 @@ python zapRest_scraper.py
 ```
 The tool will scrape restaurant information and save the results to a CSV file named restaurants_data_<timestamp>.csv in the same directory as the script.
 
-Configuration
+## Configuration
 You can adjust the settings in the zapRest_scraper.py file to customize the scraping behavior. For example, you can:
 
-Modify the time.sleep() values to adjust the waiting time for page loading.
-Change the number of times the "Show More" button is clicked.
-Adjust the Chrome options in the WebDriver setup for headless browsing or proxy settings.
+## - Modify the time.sleep() values to adjust the waiting time for page loading.
+## - Change the number of times the "Show More" button is clicked.
+## - Adjust the Chrome options in the WebDriver setup for headless browsing or proxy settings.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 Thanks to the contributors of Selenium and Pandas for their excellent tools that made this scraper possible.
 
