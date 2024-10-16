@@ -31,18 +31,21 @@ cd zapRest-scraper
 ```
 Set up a virtual environment (optional but recommended):
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+```
 Install project dependencies:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 Usage
 To run the scraper, simply execute the following command:
 
-bash
+```bash
 python zapRest_scraper.py
+```
 The tool will scrape restaurant information and save the results to a CSV file named restaurants_data_<timestamp>.csv in the same directory as the script.
 
 Configuration
@@ -57,4 +60,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Acknowledgments
 Thanks to the contributors of Selenium and Pandas for their excellent tools that made this scraper possible.
-```
+
