@@ -56,7 +56,7 @@ You can adjust the settings in the zapRest_scraper.py file to customize the scra
 - Adjust the Chrome options in the WebDriver setup for headless browsing or proxy settings.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 Thanks to the contributors of Selenium and Pandas for their excellent tools that made this scraper possible.
